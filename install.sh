@@ -18,3 +18,5 @@ echo 'export PATH=$PATH:/home/adminuser/.nvm/v0.10.21/bin/' >> ~/.bashrc
 echo 'alias sudo="sudo env PATH=$PATH"' >> ~/.bashrc
 
 sudo apt-get -y autoclean && sudo apt-get -y autoremove
+
+rm -rf ~/tmp
