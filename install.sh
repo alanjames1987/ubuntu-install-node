@@ -9,13 +9,18 @@ sudo apt-get install -y g++ iptables-persistent
 git clone https://github.com/creationix/nvm.git ~/.nvm
 source ~/.nvm/nvm.sh
 
+# install node
 nvm install 0.10.21
 
+# install other useful tools
 npm install forever -g
 npm install node-dev -g
 
+# configure ip tables for port redirect
 sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
-sudo iptables-save > /etc/iptables/rules.v4
+sudo su
+iptables-save > /etc/iptables/rules.v4
+exit
 
 sudo apt-get -y autoclean && sudo apt-get -y autoremove
 
