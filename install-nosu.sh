@@ -16,3 +16,6 @@ npm install node-dev -g
 npm install pm2 -g
 
 rm -rf ~/tmp
+
+echo 'please restart your server to complete the installation'
+echo 'use: sudo shutdown -r now'
