@@ -9,6 +9,9 @@ apt-get install -y curl g++ git-core htop imagemagick iptables-persistent libcur
 # configure ip tables for port redirect from 3000 to 80
 iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
 
+# configure ip tables for port redirect from 3001 to 443
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 443 -j REDIRECT --to-port 3001
+
 # save the port redirect configuration
 iptables-save > /etc/iptables/rules.v4
 
