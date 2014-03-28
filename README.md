@@ -13,8 +13,11 @@ Usage
 ---
 
 First become root with `sudo su` 
+
 Next run `install-su.sh` with either `./install-su.sh` or `bash install-su.sh`.
+
 Then exit root user mode `exit` to become a normal user.
+
 Last run `install-nosu.sh` again with either `./install-nosu.sh` or `bash install-nosu.sh`.
 
 You MUST `sudo su` before running `install-su.sh` or the install will fail.
