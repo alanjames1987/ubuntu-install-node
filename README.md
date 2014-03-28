@@ -1,7 +1,7 @@
 *ubuntu-install-node!*
 ---
 
-This is a set of bash scripts to install and configure a Node.JS server on Ubuntu.
+A set of bash scripts to install and configure a Node.JS server on Ubuntu.
 
 They install Node v0.10.21 using [nvm](https://github.com/creationix/nvm).
 
