@@ -13,7 +13,6 @@ nvm alias default 0.10.21
 # install other useful tools
 npm install forever -g
 npm install node-dev -g
-npm install pm2 -g
 
 rm -rf ~/tmp
 
