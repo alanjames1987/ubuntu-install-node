@@ -1,5 +1,7 @@
-ubuntu-install-node
+*ubuntu-install-node!*
 ---
+
+![](https://github.com/alanjames1987/ubuntu-install-node/blob/master/media/logo.png)
 
 This is a set of bash scripts to install and configure a Node.JS server on Ubuntu.
 
@@ -32,4 +34,4 @@ Alan James: [alanjames1987@gmail.com](mailto:alanjames1987@gmail.com)
 
 License
 ---
-Licensed under [MIT](http://mogulmvc.com/general/license).
+Licensed under [MIT](https://github.com/alanjames1987/ubuntu-install-node/blob/master/LICENSE).
