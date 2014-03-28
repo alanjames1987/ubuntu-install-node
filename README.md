@@ -9,7 +9,7 @@ They install Node v0.10.21 using [nvm](https://github.com/creationix/nvm).
 
 They also configures iptables to redirect port 80 to 3000 and port 443 to 3001 so you can run your node applications without root permission. 
 
-Install
+Usage
 ---
 
 First become root with `sudo su' 
