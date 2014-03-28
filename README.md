@@ -1,7 +1,7 @@
 *ubuntu-install-node!*
 ---
 
-![](https://github.com/alanjames1987/ubuntu-install-node/blob/master/media/logo.png)
+![](https://raw.githubusercontent.com/alanjames1987/ubuntu-install-node/master/media/logo.png)
 
 This is a set of bash scripts to install and configure a Node.JS server on Ubuntu.
 
