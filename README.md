@@ -12,7 +12,7 @@ They also configures iptables to redirect port 80 to 3000 and port 443 to 3001 s
 Usage
 ---
 
-First become root with `sudo su' 
+First become root with `sudo su` 
 Next run `install-su.sh` with either `./install-su.sh` or `bash install-su.sh`.
 Then exit root user mode `exit` to become a normal user.
 Last run `install-nosu.sh` again with either `./install-nosu.sh` or `bash install-nosu.sh`.
