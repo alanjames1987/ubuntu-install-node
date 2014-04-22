@@ -3,6 +3,7 @@
 git clone https://github.com/creationix/nvm.git ~/.nvm
 source ~/.nvm/nvm.sh
 
+echo 'source ~/.nvm/nvm.sh' >> ~/.bashrc
 echo 'source ~/.nvm/nvm.sh' >> ~/.profile
 
 # install node
