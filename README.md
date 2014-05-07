@@ -1,4 +1,4 @@
-*ubuntu-install-node!*
+Ubuntu Install Node
 ---
 
 A set of bash scripts to install and configure a Node.js server on Ubuntu.
