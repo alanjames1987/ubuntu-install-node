@@ -7,13 +7,14 @@ echo 'source ~/.nvm/nvm.sh' >> ~/.bashrc
 echo 'source ~/.nvm/nvm.sh' >> ~/.profile
 
 # install node
-nvm install 0.10.21
+nvm install 0.10.30
 
-nvm alias default 0.10.21
+nvm alias default 0.10.30
 
 # install other useful tools
 npm install forever -g
 npm install node-dev -g
+npm install node-inspector -g
 
 rm -rf ~/tmp
 

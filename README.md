@@ -3,7 +3,7 @@ Ubuntu Install Node
 
 A set of bash scripts to install and configure a Node.js server on Ubuntu.
 
-They install Node v0.10.21 using [nvm](https://github.com/creationix/nvm).
+They install Node v0.10.30 using [nvm](https://github.com/creationix/nvm).
 
 They also configures iptables to redirect port 80 to 3000 and port 443 to 3001 so you can run your node applications without root permission. 
 
@@ -28,6 +28,7 @@ The two scripts install and configure a lot of useful software some specific to 
 The Node related software installed is.
 * [forever](https://github.com/nodejitsu/forever)
 * [node-dev](https://github.com/fgnass/node-dev)
+* [node-inspector](https://github.com/node-inspector/node-inspector)
 
 Author
 ---
