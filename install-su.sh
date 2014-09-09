@@ -15,7 +15,7 @@ iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 443 -j REDIRECT --to-port 3
 # save the port redirect configuration
 iptables-save > /etc/iptables/rules.v4
 
-apt-get -y autoclean 
+apt-get -y autoclean
 apt-get -y autoremove
 
 echo 'to continue the installation run install-nosu.sh'
