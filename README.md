@@ -26,6 +26,7 @@ Notes
 The two scripts install and configure a lot of useful software some specific to Node some not. 
 
 The Node related software installed is.
+* [MongoDB](http://www.mongodb.org/)  
 * [forever](https://github.com/nodejitsu/forever)
 * [node-dev](https://github.com/fgnass/node-dev)
 * [node-inspector](https://github.com/node-inspector/node-inspector)

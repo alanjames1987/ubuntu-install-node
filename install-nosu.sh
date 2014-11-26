@@ -7,7 +7,7 @@ echo 'source ~/.nvm/nvm.sh' >> ~/.bashrc
 echo 'source ~/.nvm/nvm.sh' >> ~/.profile
 
 # install node
-nvm install 0.10.31
+nvm install 0.10.33
 
 nvm alias default 0.10.33
 
