@@ -9,12 +9,13 @@ echo 'source ~/.nvm/nvm.sh' >> ~/.profile
 # install node
 nvm install 0.10.31
 
-nvm alias default 0.10.31
+nvm alias default 0.10.33
 
 # install other useful tools
 npm install forever -g
 npm install node-dev -g
 npm install node-inspector -g
+npm install pm2 -g
 
 rm -rf ~/tmp
 

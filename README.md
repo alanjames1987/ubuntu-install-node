@@ -29,6 +29,7 @@ The Node related software installed is.
 * [forever](https://github.com/nodejitsu/forever)
 * [node-dev](https://github.com/fgnass/node-dev)
 * [node-inspector](https://github.com/node-inspector/node-inspector)
+* [pm2](https://github.com/Unitech/pm2)
 
 Author
 ---
