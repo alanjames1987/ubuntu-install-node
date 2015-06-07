@@ -7,9 +7,9 @@ echo 'source ~/.nvm/nvm.sh' >> ~/.bashrc
 echo 'source ~/.nvm/nvm.sh' >> ~/.profile
 
 # install node
-nvm install 0.10.35
+nvm install 0.12.4
 
-nvm alias default 0.10.35
+nvm alias default 0.12.4
 
 # install other useful tools
 npm install forever -g
